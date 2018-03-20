@@ -2,6 +2,8 @@
 session_start();
 require 'config.php';
 
+define('BASE_URL', 'http://localhost/financial_system_mvc/');
+
 spl_autoload_register(function ($class){
     if(strpos($class, 'Controller') > -1) {
         if(file_exists('controllers/'.$class.'.php')) {
