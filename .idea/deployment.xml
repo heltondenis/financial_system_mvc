@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="agenda_laravel">
+    <serverData>
+      <paths name="agenda_laravel">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="financial_system_mvc" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="agenda_laravel (1)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
