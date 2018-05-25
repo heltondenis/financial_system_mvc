@@ -7,11 +7,25 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/login.css">
     <title>Login</title>
-</head>
-<body>
-<h1>Hello, world!</h1>
+    </head>
+    <body>
+
+    <div class="loginarea">
+    <form method="POST">
+        <input type="email" name="email" placeholder="Digite seu email"/>
+
+        <input type="password" name="password" placeholder="Digite sua senha"/>
+
+        <input type="submit" value="Enviar" /><br>
+
+        <?php if (isset($error) && !empty($error)): ?>
+        <br><br><div class="warning"><?php echo $error; ?></div>
+        <?php endif; ?>
+    </form>
+    </div>
+    </body>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
