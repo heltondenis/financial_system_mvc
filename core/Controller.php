@@ -14,7 +14,7 @@ class controller {
 	}
 
 	public function loadTemplate($viewName, $viewData = array()) {
-		include 'views/home.php';
+		include 'views/template.php';
 	}
 
 	public function loadViewInTemplate($viewName, $viewData) {
