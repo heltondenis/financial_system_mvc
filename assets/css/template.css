@@ -49,6 +49,9 @@ body{
 	line-height: 40px; 
 	font-size: 14px;
 	padding-left: 30px;
+	background-size: 13px 13px;
+	background-repeat: no-repeat;
+	background-position: 13px 12px;
 }
 
 .menuarea li a {
@@ -59,4 +62,18 @@ body{
 
 .menuarea li:hover {
 	background-color: #000;
+}
+
+.menuarea li a {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+}
+
+.menuarea li:nth-child(1) {
+	background-image:url('../images/house-outline.png');
+}
+
+.menuarea li:nth-child(2) {
+	background-image:url('../images/key.png');
 }
