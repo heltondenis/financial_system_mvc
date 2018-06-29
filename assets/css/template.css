@@ -96,3 +96,6 @@ body{
 	border-bottom: 1px solid #FFF;
 	background-color: #FFF;
 }
+.tabbody {
+	display: none;
+}
