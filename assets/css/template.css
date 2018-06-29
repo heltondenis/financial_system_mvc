@@ -77,3 +77,22 @@ body{
 .menuarea li:nth-child(2) {
 	background-image:url('../images/key.png');
 }
+
+.area {
+	padding: 15px;
+}
+
+.tabitem {
+	float: left;
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	background-color: #EEE;
+	cursor: pointer;
+}
+.activetab {
+	border-bottom: 1px solid #FFF;
+	background-color: #FFF;
+}
