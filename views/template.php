@@ -13,7 +13,7 @@
             </div>
             <div class="menuarea">
                 <ul>
-                    <li><a href="<?php BASE_URL; ?>">Home</a></li>
+                    <li><a href="<?php BASE_URL; ?>home">Home</a></li>
                     <li><a href="<?php BASE_URL; ?>permissions">Permissões</a></li>
                 </ul>
             </div>

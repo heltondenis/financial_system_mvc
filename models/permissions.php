@@ -29,9 +29,9 @@ class Permissions extends model {
 						$this->permission[] = $item['name'];
 					}
 				}
-		}
+			}
 
+		}
 	}
-}
 
  ?>
