@@ -32,6 +32,15 @@ class Permissions extends model {
 			}
 
 		}
+
+		public function hasPermission($name) {
+
+			if (in_array($name, $this->permissions)) {
+				return true;
+			} else {
+				return false;
+			}
+		}
 	}
 
  ?>
