@@ -5,9 +5,9 @@ class homeController extends controller {
         parent::__construct();
 
         $u = new Users();
-        if ($u->islogged() == false) {
-            header("Location: ".BASE_URL."/login");
-            exit;
+        if($u->isLogged() == false) {
+        	header("Location: ".BASE_URL."/login");
+        	exit;
         }
     }
 
@@ -24,4 +24,6 @@ class homeController extends controller {
 
 }
 
-?>
+
+
+
